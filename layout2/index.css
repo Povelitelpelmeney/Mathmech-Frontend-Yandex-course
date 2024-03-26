@@ -1,0 +1,56 @@
+.cat_img {
+  border-radius: 2em;
+  width: 30em;
+  height: 20em;
+}
+.cat {
+  background-color: beige;
+  border: 1em solid gray;
+  border-radius: 3em;
+  display: inline-block;
+  margin: 3em;
+  word-break: normal;
+}
+.cat:hover {
+  box-shadow: 3em 3em 7em 0em rgba(34, 60, 80, 0.2);
+}
+.cat h2 {
+  padding: 0.3rem 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cat p.sm_info {
+  padding: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cat p.big_info {
+  padding: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header:has(.list_button:not(:checked)) ~ .cat > .big_info,
+.header:has(.list_button:checked) ~ .cat > .sm_info {
+  display: none;
+}
+.header:has(.list_button:checked) ~ .cat {
+  width: 30em;
+  display: block;
+}
+.header:has(.list_button:not(:checked)) ~ .cat {
+  width: 30em;
+}
+.list_button:checked + .list_label .list_img {
+  transform: rotate(90deg);
+}
+.list_button {
+  display: none;
+}
+.list_img {
+  width: 3em;
+  height: 3em;
+  cursor: pointer;
+}
+.name {
+  width: 20em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
