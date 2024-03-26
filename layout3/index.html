@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link
+      href="https://fonts.cdnfonts.com/css/pt-sans-narrow"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <title>02-about-cats</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Мурмаркет</h1>
+      <input id="list_button" class="list_button" type="checkbox" />
+      <label for="list_button" class="list_label"
+        ><img class="list_img" src="list1.jpg" alt="Иконка"
+      /></label>
+    </header>
+    <div class="wrapper">
+      <article class="config">
+        <h2>Возраст</h2>
+        <div class="slider__age">
+          <input
+            type="range"
+            min="1"
+            max="10"
+            value="2"
+            step="1"
+            class="slider"
+          />
+        </div>
+        <p class="age">От 0 до 200 лет</p>
+        <h2>Порода</h2>
+        <div class="rad_but b1">
+          <input type="radio" name="radio" id="anton" class="anton" /><label
+            for="anton"
+            >Антоша</label
+          >
+        </div>
+        <div class="rad_but b2">
+          <input type="radio" name="radio" id="cat1" class="cat1" /><label
+            for="cat1"
+            >Котяры</label
+          >
+        </div>
+        <div class="rad_but b3">
+          <input type="radio" name="radio" id="no" class="no" /><label for="no"
+            >Нет</label
+          >
+        </div>
+        <div class="rad_but b4">
+          <input type="radio" name="radio" id="all" class="all" /><label
+            for="all"
+            >Все котики</label
+          >
+        </div>
+      </article>
+      <article class="cat el1">
+        <input id="el1_button" class="el1_button" type="radio" name="radio" />
+        <label for="el1_button" class="el1_label"
+          ><img class="el1_img" src="черныш.webp" alt="Черныш"
+        /></label>
+        <div class="name"><h2>Черныш</h2></div>
+        <p class="sm_info">
+          Возраст: 5 лет<br />
+          Порода: нет<br />
+          Болезни: нет<br />
+          Статус: нет<br />
+        </p>
+        <p class="big_info">
+          Незаметен во тьме, неотразим днем! Возраст 5 лет. Любит притягивать
+          взгляды также хорошо, как и пыль.
+        </p>
+      </article>
+      <article class="cat el2">
+        <input id="el2_button" class="el2_button" type="radio" name="radio" />
+        <label for="el2_button" class="el2_label"
+          ><img class="el2_img" src="голубоглазка.webp" alt="Голубоглазка"
+        /></label>
+        <div class="name"><h2>Голубоглазка</h2></div>
+        <p class="sm_info">
+          Возраст: 2 года<br />
+          Порода: нет<br />
+          Болезни: нет<br />
+          Статус: ищет хозяина<br />
+        </p>
+        <p class="big_info">
+          Грациозная и королевская особа. Возраст 2 года. Будет вас уважать,
+          если будете давать ожерелья.
+        </p>
+      </article>
+      <article class="cat el3">
+        <input id="el3_button" class="el3_button" type="radio" name="radio" />
+        <label for="el3_button" class="el3_label"
+          ><img class="el3_img" src="антон.webp" alt="Антон"
+        /></label>
+        <div class="name"><h2>Антон</h2></div>
+        <p class="sm_info">
+          Возраст: 3 года<br />
+          Порода: Антон<br />
+          Болезни: Антон<br />
+          Статус: Антон<br />
+        </p>
+        <p class="big_info">
+          Добрый, любит поесть. В общем Антон. Возраст 3 года. Достаточно
+          ленивий, но преданный. Любит помурлыкать.
+        </p>
+      </article>
+      <article class="cat el4">
+        <input id="el4_button" class="el4_button" type="radio" name="radio" />
+        <label for="el4_button" class="el4_label"
+          ><img class="el4_img" src="полежашка.webp" alt="Полежашка"
+        /></label>
+        <div class="name"><h2>Полежашка</h2></div>
+        <p class="sm_info">
+          Возраст: 2 года<br />
+          Порода: нет<br />
+          Болезни: нет<br />
+          Статус: нет<br />
+        </p>
+        <p class="big_info">
+          Это ваш кот, если вы также любите полежать. Возраст 2 года. Любит
+          поспать, полежать и наверное поспать.
+        </p>
+      </article>
+      <article class="cat el5">
+        <input id="el5_button" class="el5_button" type="radio" name="radio" />
+        <label for="el5_button" class="el5_label"
+          ><img
+            class="el5_img"
+            src="лежащий по лезвию.webp"
+            alt="Лежащий по лезвию"
+        /></label>
+        <div class="name"><h2>Лежащий по лезвию</h2></div>
+        <p class="sm_info">
+          Возраст: 4 года<br />
+          Порода: нет<br />
+          Болезни: нет<br />
+          Статус: нет<br />
+        </p>
+        <p class="big_info">Почти Райан Гослинг. Возраст 4 года. He Drives.</p>
+      </article>
+      <article class="cat el6">
+        <input id="el6_button" class="el6_button" type="radio" name="radio" />
+        <label for="el6_button" class="el6_label"
+          ><img class="el6_img" src="отдыхашка.webp" alt="Отдыхашка"
+        /></label>
+        <div class="name"><h2>Отдыхашка</h2></div>
+        <p class="sm_info">
+          Возраст: 2 года<br />
+          Порода: нет<br />
+          Болезни: нет<br />
+          Статус: нет<br />
+        </p>
+        <p class="big_info">
+          Полная милашка. Возраст 2 года. Любит полежать и помяукать. Часто
+          устает.
+        </p>
+      </article>
+      <article class="cat el7">
+        <input id="el7_button" class="el7_button" type="radio" name="radio" />
+        <label for="el7_button" class="el7_label"
+          ><img class="el7_img" src="потягушник.webp" alt="Потягушник"
+        /></label>
+        <div class="name"><h2>Потягушник</h2></div>
+        <p class="sm_info">
+          Возраст: 4 года<br />
+          Порода: нет<br />
+          Болезни: нет<br />
+          Статус: нет<br />
+        </p>
+        <p class="big_info">
+          Издает странные звуки при потягиваниях, ну а так, помимо этого - милый
+          котик. Возраст 4 года. После сладкого сна потянуться - это то, что
+          надо!
+        </p>
+      </article>
+      <article class="cat el8">
+        <input id="el8_button" class="el8_button" type="radio" name="radio" />
+        <label for="el8_button" class="el8_label"
+          ><img class="el8_img" src="пухляш.webp" alt="Пухляш"
+        /></label>
+        <div class="name"><h2>Пухляш</h2></div>
+        <p class="sm_info">
+          Возраст: 4 года<br />
+          Порода: нет<br />
+          Болезни: нет<br />
+          Статус: нет<br />
+        </p>
+        <p class="big_info">
+          Любит поесть, так что готовьте свои денежки! Возраст 4 года.
+          Достаточно добрый и преданный, однако ценит миску еды больше всего.
+        </p>
+      </article>
+      <article class="cat el9">
+        <input id="el9_button" class="el9_button" type="radio" name="radio" />
+        <label for="el9_button" class="el9_label"
+          ><img class="el9_img" src="серьезныш.webp" alt="Серьезныш"
+        /></label>
+        <div class="name"><h2>Серьезныш</h2></div>
+        <p class="sm_info">
+          Возраст: 2 года<br />
+          Порода: нет<br />
+          Болезни: нет<br />
+          Статус: нет<br />
+        </p>
+        <p class="big_info">
+          Снаружи котик, в душе - тигр. Возраст 2 года. Не любит шуток, однако
+          готов защитить от любой угрозы.
+        </p>
+      </article>
+      <article class="cat el10">
+        <input id="el10_button" class="el10_button" type="radio" name="radio" />
+        <label for="el10_button" class="el10_label"
+          ><img class="el10_img" src="барсик.webp" alt="Барсик"
+        /></label>
+        <div class="name"><h2>Барсик</h2></div>
+        <p class="sm_info">
+          Возраст: 4 года<br />
+          Порода: нет<br />
+          Болезни: нет<br />
+          Статус: нет<br />
+        </p>
+        <p class="big_info">
+          Котик - что надо! Возраст 2 года. Любит полежать на коленках и
+          побегать по подоконнику.
+        </p>
+      </article>
+    </div>
+    <footer class="footer">
+      <p class="text_us">Напишите нам:</p>
+      <p class="link_us">
+        💬
+        <a href="http://t.me/Levp00pkin" class="text" target="_blank"
+          >t.me/Levp00pkin</a
+        >
+      </p>
+      <p class="site_us">
+        OOO "<a
+          href="http://127.0.0.1:5501/index.html"
+          class="Mur"
+          target="_blank"
+          >Мурмаркет</a
+        >"
+      </p>
+    </footer>
+  </body>
+</html>
